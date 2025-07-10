@@ -1,0 +1,11 @@
+C:\Users\ASUS\OneDrive\Desktop\LocalDbDeployment\MyDatabase\obj\Debug\MyDatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\LocalDbDeployment\MyDatabase\obj\Debug\MyDatabase.dll
+C:\Users\ASUS\OneDrive\Desktop\LocalDbDeployment\MyDatabase\obj\Debug\MyDatabase.pdb
+C:\Users\ASUS\OneDrive\Desktop\LocalDbDeployment\MyDatabase\bin\Debug\MyDatabase.dacpac
+C:\Users\ASUS\OneDrive\Desktop\LocalDbDeployment\MyDatabase\bin\Debug\MyDatabase.deps.json
+C:\Users\ASUS\OneDrive\Desktop\LocalDbDeployment\MyDatabase\bin\Debug\MyDatabase.dll
+C:\Users\ASUS\OneDrive\Desktop\LocalDbDeployment\MyDatabase\bin\Debug\MyDatabase.pdb
+C:\Users\ASUS\OneDrive\Desktop\LocalDbDeployment\MyDatabase\obj\Debug\Model.xml
+C:\Users\ASUS\OneDrive\Desktop\LocalDbDeployment\MyDatabase\obj\Debug\refactor.xml
+C:\Users\ASUS\OneDrive\Desktop\LocalDbDeployment\MyDatabase\obj\Debug\postdeploy.sql
+C:\Users\ASUS\OneDrive\Desktop\LocalDbDeployment\MyDatabase\obj\Debug\predeploy.sql

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "V/S7j6MyUto=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\LocalDbDeployment\\MyDatabase\\MyDatabase.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net20\\1.0.3\\microsoft.netframework.referenceassemblies.net20.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
