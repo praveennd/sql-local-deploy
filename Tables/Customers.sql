@@ -3,5 +3,6 @@ CREATE TABLE Customers (
     Name NVARCHAR(100) NOT NULL,
     Email NVARCHAR(255),
     PhoneNumber NVARCHAR(20),
-    CreatedAt DATETIME DEFAULT GETDATE()
+    CreatedAt DATETIME DEFAULT GETDATE(),
+    ModifiedAt DATETIME DEFAULT GETDATE()
 );
