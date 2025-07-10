@@ -1,0 +1,8 @@
+CREATE TABLE Employee (
+    EmployeeID INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(255),
+    PhoneNumber NVARCHAR(20),
+    CreatedAt DATETIME DEFAULT GETDATE(),
+    ModifiedAt DATETIME DEFAULT GETDATE()
+);
