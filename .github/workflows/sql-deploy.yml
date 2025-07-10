@@ -25,8 +25,8 @@ jobs:
       run: dotnet build MyDatabase.sqlproj --configuration Debug
 
     - name: Deploy to Local SQL Server
-      run: >
-        "C:\Tools\SqlPackage\SqlPackage.exe"
-        /Action:Publish
-        /SourceFile:"MyDatabase\bin\Debug\MyDatabase.dacpac"
+      run: |
+        & "C:\Tools\SqlPackage\SqlPackage.exe" `
+        /Action:Publish `
+        /SourceFile:"MyDatabase\bin\Debug\MyDatabase.dacpac" `
         /TargetConnectionString:"Data Source=LAPTOP-GLGJ69LR\SQLEXPRESS;Initial Catalog=DevDB;Integrated Security=True;TrustServerCertificate=True"
