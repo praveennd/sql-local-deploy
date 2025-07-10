@@ -30,4 +30,3 @@ jobs:
         /Action:Publish `
         /SourceFile:"bin\Debug\MyDatabase.dacpac" `
         /TargetConnectionString:"Data Source=LAPTOP-GLGJ69LR\SQLEXPRESS;Initial Catalog=DevDB;Integrated Security=True;TrustServerCertificate=True"
-      working-directory: ${{ github.workspace }}/MyDatabase
