@@ -19,10 +19,10 @@ jobs:
         dotnet-version: '6.0.x'
 
     - name: Restore project
-      run: dotnet restore
+      run: dotnet restore ./MyDatabase/MyDatabase.sqlproj
 
     - name: Build .dacpac
-      run: dotnet build MyDatabase.sqlproj --configuration Debug
+      run: dotnet build ./MyDatabase/MyDatabase.sqlproj --configuration Debug
 
     - name: Deploy to Local SQL Server
       run: |
@@ -30,3 +30,4 @@ jobs:
         /Action:Publish `
         /SourceFile:"MyDatabase\bin\Debug\MyDatabase.dacpac" `
         /TargetConnectionString:"Data Source=LAPTOP-GLGJ69LR\SQLEXPRESS;Initial Catalog=DevDB;Integrated Security=True;TrustServerCertificate=True"
+      working-directory: ${{ github.workspace }}/MyDatabase
